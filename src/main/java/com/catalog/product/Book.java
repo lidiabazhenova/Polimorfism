@@ -39,6 +39,9 @@ public class Book extends Product {
         this.author = author;
     }
 
+    /**
+     * * method for demonstrating default image
+     */
     public static void getDefaultImage() {
         System.out.println("book default image");
     }
