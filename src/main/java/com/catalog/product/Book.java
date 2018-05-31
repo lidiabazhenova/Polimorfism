@@ -1,5 +1,8 @@
 package com.catalog.product;
 
+/**
+ * Class for objects books
+ */
 public class Book extends Product {
 
     private int pageNumber;
@@ -47,6 +50,7 @@ public class Book extends Product {
     public static void getDefaultImage() {
         System.out.println("book default image");
     }
+
 
     public static Book createItem() {
         return new Book();
