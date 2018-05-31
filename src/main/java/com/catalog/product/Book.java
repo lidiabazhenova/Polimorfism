@@ -23,10 +23,7 @@ public class Book extends Product {
         return super.getDetails() + "Page number: " + pageNumber + "\r\n " + "Author: " + author + "\r\n ";
     }
 
-    /**
-     * method for get page number for book
-     * @return returns book page number for book
-     */
+
     public int getPageNumber() {
         return pageNumber;
     }
@@ -35,6 +32,10 @@ public class Book extends Product {
         this.pageNumber = pageNumber;
     }
 
+    /**
+     * method for get author for book
+     * @return returns book author
+     */
     public String getAuthor() {
         return author;
     }
