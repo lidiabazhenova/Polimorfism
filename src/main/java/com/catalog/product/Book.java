@@ -15,6 +15,10 @@ public class Book extends Product {
         this.author = author;
     }
 
+    /**
+     * method for get description for book
+     * @return returns book description
+     */
     public String getDetails() {
         return super.getDetails() + "Page number: " + pageNumber + "\r\n " + "Author: " + author + "\r\n ";
     }
