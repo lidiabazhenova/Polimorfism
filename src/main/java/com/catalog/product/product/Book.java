@@ -51,7 +51,7 @@ public class Book extends Product {
      * * method for demonstrating default image
      */
     public static void getDefaultImage() {
-        System.out.println("book default image");
+        System.out.println("this will be image");
     }
 
 
