@@ -1,5 +1,8 @@
 package com.catalog.product.product;
 
+/**
+ * Class for objects books
+ */
 public class Book extends Product {
 
     private int pageNumber;
@@ -23,6 +26,7 @@ public class Book extends Product {
         return super.getDetails() + "Page number: " + pageNumber + "\r\n " + "Author: " + author + "\r\n ";
     }
 
+
     public int getPageNumber() {
         return pageNumber;
     }
@@ -31,6 +35,10 @@ public class Book extends Product {
         this.pageNumber = pageNumber;
     }
 
+    /**
+     * method for get author for book
+     * @return returns book author
+     */
     public String getAuthor() {
         return author;
     }
@@ -45,6 +53,7 @@ public class Book extends Product {
     public static void getDefaultImage() {
         System.out.println("book default image");
     }
+
 
     public static Book createItem() {
         return new Book();
