@@ -51,7 +51,10 @@ public class Book extends Product {
         System.out.println("book default image");
     }
 
-
+    /**
+     *
+     * @return new object
+     */
     public static Book createItem() {
         return new Book();
     }
