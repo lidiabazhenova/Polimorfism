@@ -1,9 +1,9 @@
 package com.catalog;
 
-import com.catalog.product.Book;
-import com.catalog.product.Dress;
-import com.catalog.product.MobilePhone;
-import com.catalog.product.Product;
+import com.catalog.product.product.Book;
+import com.catalog.product.product.Dress;
+import com.catalog.product.product.MobilePhone;
+import com.catalog.product.product.Product;
 import org.junit.Test;
 
 import java.util.ArrayList;
