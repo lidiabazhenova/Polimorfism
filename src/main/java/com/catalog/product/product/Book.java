@@ -1,4 +1,4 @@
-package com.catalog.product;
+package com.catalog.product.product;
 
 /**
  * Class for objects books
@@ -23,7 +23,7 @@ public class Book extends Product {
      * @return returns book description
      */
     public String getDetails() {
-        return super.getDetails() + "Page number: ";
+        return super.getDetails() + "Page number: " + pageNumber + "\r\n " + "Author: " + author + "\r\n ";
     }
 
 
@@ -47,6 +47,9 @@ public class Book extends Product {
         this.author = author;
     }
 
+    /**
+     * * method for demonstrating default image
+     */
     public static void getDefaultImage() {
         System.out.println("book default image");
     }

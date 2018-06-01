@@ -1,4 +1,4 @@
-package com.catalog.product;
+package com.catalog.product.product;
 
 public abstract class Product {
 
