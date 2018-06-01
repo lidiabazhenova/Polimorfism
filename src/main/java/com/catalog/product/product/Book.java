@@ -23,7 +23,7 @@ public class Book extends Product {
      * @return returns book description
      */
     public String getDetails() {
-        return super.getDetails() + "Page number: " + pageNumber + "\r\n " + "Author: " + author + "\r\n ";
+        return super.getDetails() + "Page number: " + pageNumber + "\r\n " + "Author123123123: " + author + "\r\n ";
     }
 
 
